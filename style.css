@@ -1,36 +1,19 @@
-/*
-
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-*/
+@import url('https://fonts.googleapis.com/css?family=Play');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 body {
-  background-color: lightgrey;
-  font-family: "Open Sans", sans-serif;
-  padding: 5px 25px;
-  font-size: 18px;
-  margin: 0;
-  color: #444;
+  margin-top: 60px;
+
 }
 
-#foreground {
-  padding-bottom: 43%;
-  background-color: whitesmoke;
-  width: 50%;
-  margin-left: 25%;
-  margin-right:25%;
-  border-radius: 3px;
+#title {
+  margin-top: 40px;
+  font-family: Play, serif;
   
   }
 
-#kare {
-  text-align: center;
-}
-
-#header {
+#mythia {
   font-family: "Merriweather", serif;
   font-size: 32px;
   text-align: center;
@@ -40,7 +23,7 @@ body {
   font-family: "Merriweather", serif;
   text-align: center;
   color: #2e2e2d;
-  
+
 }
 
 a:link {
@@ -56,11 +39,12 @@ a:visited {
 a:hover {
   color: black;
   text-decoration: none;
-  
+
 }
+
 
 #credits {
   font-size 12px;
   text-align: center;
-  
+
 }
