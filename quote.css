@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 @import url('https://fonts.googleapis.com/css?family=Play');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 body {
-  margin-top: 60px;
+    margin-top: 60px;
+    background: white;
+    margin-left:30% ;
+    margin-right:30%;
 
 }
-
 #title {
   margin-top: 40px;
   font-family: Play, serif;
@@ -17,6 +20,7 @@ body {
   font-family: "Merriweather", serif;
   font-size: 32px;
   text-align: center;
+  color: black; 
 }
 
 #navlinks {
@@ -25,6 +29,10 @@ body {
   color: #2e2e2d;
 
 }
+
+
+
+
 
 a:link {
   color: #2e2e2d;
@@ -42,9 +50,23 @@ a:hover {
 
 }
 
+  h2 {
+    font-family: "Gloria Hallelujah", cursive;
+    text-align: center;
+    color: yellow;
+    font-size: 28pt;
+    text-shadow: 1.5px 1.5px 0px black, -1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 1.5px -1.5px 0px black, 1.5px -0px 0px black, -3px 3px 0px black, 0px 3px 0px black, -1.5px 3px 0px black, 0px -1.5px 0px black, -2.5px 1px 0px black;
+  }
+  .logo {
+    height: 100px;
+    margin-top: 60px;
+  }
 
 #credits {
   font-size: 12px;
   text-align: center;
 
 }
+
+
+
