@@ -27,22 +27,5 @@ json[0] = searchTerm
 json[1][#] = searchRes#
 json[2][#] = desc#
 json[3][#] = link#
-var url = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchTerm +  "&limit=5&format=json&callback=?"
 
-$("#searchTerm").keypress(function(e){
-                if(e.which==13){
-                    $("#search").click();
-$("#searchTerm").keypress(function(e){
-    if(e.which==13){
-        $("#search").click();
-    }
-})
-<li>
-            <a href = "json[3][i]" target = "_blank">json[1][i]</a>
-            <br>
-            desc
-        </li>
-
-
-        "<li> <a href='" +json[3][i]+ "' target = '_blank'>" +json[1][i]+ "</a><br>" +json[2][i]+"</li>"
 */
