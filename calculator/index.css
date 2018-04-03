@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body {
+	background:url(https://puu.sh/zVGk7/ac7a412f97.png)!important;
+}
+.btn {
+	width: 67.5px;
+	height: 55px;
+	margin: 4px 0 4px 3.5px;
+	box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.65);
+	display: block;
+	text-decoration: none;
+	border: none;
+	font-size: 1.5rem!important;
+	
+}
+
+.btn:active {
+	transform: translateY(3px);
+}
+#zero {
+	width:142px;
+}
+#equal {
+	height:118px;
+	margin-left:-45px;
+}
+
+#textBox {
+	background: #c3c2ab;
+	border-style:solid;
+	border-width:1px;
+	width: 293px;
+	height:67.5px;
+	margin-left:4px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 3rem;
+}
+
+.btn.focus, .btn:focus {
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.65)!important;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.65)!important;
+}
+#calc {
+	margin-top:-36.3%;
+	margin-right:auto;
+	margin-left:3.5%;
+}
+#calcBackground {
+	background:  rgb(218, 217, 217);
+	height:450px;
+	width:320px;
+	border-radius: 4%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(179, 179, 179);
+	-webkit-box-shadow: 2px 8px 43px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 8px 43px 10px rgba(0,0,0,0.75);
+box-shadow: 2px 8px 43px 10px rgba(0,0,0,0.75);
+}
