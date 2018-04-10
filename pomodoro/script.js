@@ -54,6 +54,8 @@ $(document).ready(function(){
         if(timeLeft > 1740){
             timeLeft = 1800;
             $("#sessionText").html("Session:<br>30 mins");
+            $("#timerText").html("30:00");
+
         }        
     });
     $("#sessionDecrease").click(function(){
@@ -64,6 +66,8 @@ $(document).ready(function(){
         if(timeLeft <120){
             timeLeft = 60;
             $("#sessionText").html("Session:<br>1 min");
+            $("#timerText").html("1:00");
+
 
         }        
     });
