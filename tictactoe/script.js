@@ -324,7 +324,7 @@ $(document).ready(function(){
             ascore = ascore + 1;
             $("#ascore").html(aScore);
         }
-        else if (turns == 9) {
+        else if (array[0] != "" && array[1] != "" && array[2] != "" && array[3] != "" && array[4] != "" && array[5] != "" && array[6] != "" && array[7] != "" && array[8] != "") {
             alert("TIE");
             
             reset();
@@ -337,7 +337,7 @@ $(document).ready(function(){
         if(player[0] == "x" || player[0] == 0) {
             if (array[4] == "") {
                 array[4] = "o";
-                $("#center").html("O")
+                $("#center").html("O");
             }
             else if (array[2] == "") {
                 array[2] = "o";
