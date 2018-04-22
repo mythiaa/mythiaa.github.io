@@ -129,7 +129,7 @@ $(document).ready(function(){
 
     //Main Game
     function game() {
-        if (userInput.length == level && compare.length == 0) {
+        if (level < 20 && userInput.length == level && compare.length == 0) {
             setTimeout(function(){
                 level++;
                 test = -1;
@@ -138,6 +138,10 @@ $(document).ready(function(){
                 getRandomNumber();
                 getGameSequenceArray();
             },1000);
+        }
+        if (level == 20 && userInput.length == level && compare.length == 0) {
+            alert("GZ, You WON!");
+            start();
         }
         if (compare.length > 0 && strict === false) {
             console.log("FAILED");
