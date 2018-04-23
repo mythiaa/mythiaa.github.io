@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+        <link rel="stylesheet" href="style.css">
+        <title>Random Quote Machine</title>
+  </head>
+  <body>
+        <div class="header text-center">
+                <img src="https://lionel-rowe.github.io/simpsons_quotes/simpsonslogo.svg" width="100%" alt="The Simpsons" class="logo">
+        </div>
+        <div class="container">            
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="message"></div>
+                    <button id="getMessage" class="btn btn-secondary">New Quote</button>
+                    <button id="tweet" class="btn btn-primary"><a href = "https://twitter.com/intent/tweet?text=&hashtags=TheSimpsons" id="twitterLink" target ="_blank"> <i class="fa fa-twitter"></i>Tweet</a></button>
+                </div>
+            </div>
+        </div>
+        <p id="credits"><a href="https://thesimpsonsquoteapi.glitch.me/" target="_blank">The Simpsons Quote API</a> created and coded by <a href="https://jluboff-portfolio.glitch.me/" target="_blank">Jason Luboff</a></p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
