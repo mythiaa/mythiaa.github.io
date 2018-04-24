@@ -5,25 +5,24 @@
     }
 }  
 
-body {    
+body {
     background:#272a33;
     color: #ccc;
     font-family: 'Poppins', sans-serif;
 }
 .navbar {
     color: #ccc;
-    margin-bottom: 20px;
 }
 
-.cont-2 {
-    margin: 12% auto;
+.container {
+    margin: 8% auto;
 }
 .text-1 {
     margin-top:5%;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 .text-2 {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 .text-3 {
     margin-top: 5%;
@@ -36,6 +35,10 @@ h1 {
     font-size: 3rem;
     display: inline-block;
     margin: 20px;
+}
+.devicon-text {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
 }
 .devicon-html5-plain:hover {
     color: #E54D26;
@@ -61,7 +64,6 @@ h1 {
     color:#007ACC;
     transition: color 0.5s ease;
 }
-
 .nav-link {
     margin: 20px;
     color:#ccc;
@@ -70,7 +72,9 @@ h1 {
 }
 .nav-link:hover {
     color:#ccc;
-    border-bottom: solid 2px #ccc;
+    -webkit-box-shadow: inset 0px -2px 0px 0px rgba(204,204,204,1);
+-moz-box-shadow: inset 0px -2px 0px 0px rgba(204,204,204,1);
+box-shadow: inset 0px -2px 0px 0px rgba(204,204,204,1);
 }
 
   
