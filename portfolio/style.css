@@ -38,7 +38,7 @@ h1 {
 }
 .devicon-text {
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif!important;
 }
 .devicon-html5-plain:hover {
     color: #E54D26;
