@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto+Slab:700');
-body {
+@media (max-width: 767px) {
+    .navbar-toggleable-sm {
+      clear: both;
+    }
+}  
+
+body {    
     background:#272a33;
     color: #ccc;
     font-family: 'Poppins', sans-serif;
 }
 .navbar {
-    background:#272a33;
+    color: #ccc;
+    margin-bottom: 20px;
 }
-ul {
-    margin: 0 auto;    
-}
-li {
-    margin: 20px;
-    font-size: 1.5rem;
-    font-family: 'Roboto Slab', serif;
-}
-.container {
+
+.cont-2 {
     margin: 12% auto;
 }
 .text-1 {
@@ -61,6 +61,16 @@ h1 {
     color:#007ACC;
     transition: color 0.5s ease;
 }
-a:hover {
+
+.nav-link {
+    margin: 20px;
+    color:#ccc;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+.nav-link:hover {
+    color:#ccc;
     border-bottom: solid 2px #ccc;
 }
+
+  
