@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })      
     const mySiema = new Siema({
         selector: '.siema',
         duration: 200,
@@ -15,6 +18,5 @@ $(document).ready(function(){
       });
     document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
     document.querySelector('.next').addEventListener('click', () => mySiema.next());
-    
 });
 
