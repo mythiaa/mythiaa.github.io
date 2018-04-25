@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700');
+body {
+    background:#333333;
+    width:100%;
+}
+#buttons {
+    background:black;
+    width:308px;
+    height:308px;
+    margin:5% auto;
+}
+.board {
+    height:100px;
+    width: 100px;
+    vertical-align:top;
+    margin-bottom:4px;
+    background: white;
+    border:none;
+    font-size: 4rem;
+    font-family: 'Comfortaa', cursive;
+}
+.board:focus {
+    outline: none;
+}
+#selector {
+    margin: 5% auto;
+    text-align:center;
+}
+#x,#o {
+
+    vertical-align: top;
+    background: white;
+    font-size: 1rem;
+    border:none;
+}
+#turns {
+    color:white;
+    font-size: 2rem;
+}
+#scores {
+    margin:auto;
+    text-align: center;
+}
+#playerScore,#tieScore,#aiScore {
+    color:white;
+    display:inline-block;
+    margin-right:20px;
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+}

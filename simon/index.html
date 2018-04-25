@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Simon Gaem</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="main">
+                        <div id="outerButtons">
+                            <div class="outerBox" id="green"></div>
+                            <div class="outerBox" id="red"></div>
+                            <div class="outerBox" id="yellow"></div>
+                            <div class="outerBox" id="blue"></div>
+                        </div>
+                        <div class="bg-light" id="centerMain">
+                            <p id="simonLogo">Simon</p>
+                            <div class="text-center" id="centerButtons">                                
+                                <div class="d-inline-block" id="screen"><p id="screenText"></p></div>
+                                <button class="btn d-inline-block bg-danger" id="start">Start</button>
+                                <button class="btn d-inline-block bg-warning" id="strict">Strict</button>
+                            </div>                                                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script> 
+    </body>
+</html>
