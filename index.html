@@ -1,23 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1 id="mythia">mythia</h1>
-    <p id="navlinks">
-      <strong>About Me</strong> | <a href="./works.html">Works</a>
-    </p>
-    <div class="container">
-      <div class="jumbotron">
-        <p class="text-center">Just a boy learning to code some websites.</p>
-        
-      </div>
-    </div>
-    <p id="credits"><a href="./index.html">mythia</a> - 2018 </p>
-  </body>
+    <head>
+        <!-- Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS links-->
+        <!--Bootstrap 4.1-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <!--Devicon-->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">         
+        <link rel="stylesheet" href="style.css">
+        <title>mythia</title>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>      
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>                
+                </ul>
+            </div>
+        </nav>          
+        <!--Body-->
+        <!--About Me-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">        
+                    <div class="aboutMe">
+                        <div class="texts text-center">
+                            <h1 class="title">Hello, I'm Emir.</h1>
+                            <p class="text-1">I'm a 24 year old civil engineering student who absolutely have lots of free time from Istanbul.</p>
+                            <p class="text-2">I've always been fascinated with development of websites and applications, so I decided to learn how to make them.</p>
+                            <h4 class="text-3">In my projects I'm using:</h4>
+                        </div>
+                        <div class="langLogos text-center">
+                            <div class="devicon html">
+                                <i class="devicon-html5-plain"></i>
+                                <p class="devicon-text">HTML5</p>
+                            </div>
+                            <div class="devicon css">
+                                <i class="devicon-css3-plain"></i>
+                                <p class="devicon-text">CSS3</p>
+                            </div>
+                            <div class="devicon js">
+                                <i class="devicon devicon-javascript-plain"></i>
+                                <p class="devicon-text">JavaScript</p>
+                            </div>
+                            <div class="devicon bootstrap">
+                                <i class="devicon-bootstrap-plain"></i>
+                                <p class="devicon-text">Bootstrap</p>
+                            </div>
+                            <div class="devicon jquery">
+                                <i class="devicon-jquery-plain"></i>
+                                <p class="devicon-text">jQuery</p>
+                            </div>
+                            <div class="devicon vsc">
+                                <i class="devicon-visualstudio-plain"></i>
+                                <p class="devicon-text">VS Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                       
+            </div>
+        </div>
+        <!--Footer-->
+        <footer class="footer">
+                <div class="container text-center">
+                  <span>Copyright © 2018 - emir.al</span>
+                </div>
+        </footer>
+        <!-- JS links -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>        
+        <script src="script.js"></script>
+    </body>
 </html>
